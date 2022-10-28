@@ -33,7 +33,7 @@ return (
                 rel="noopener noreferrer"
                 className=" hover:text-white"
             >
-                Developed by <span className="">Jose Mario Rodriguez </span>
+                Developed by <span className="">José Mario Rodríguez </span>
             </a>
         </footer>
     </div>
