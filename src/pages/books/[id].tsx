@@ -10,6 +10,7 @@ interface TProps {
 
 const BookDetailPage: NextPage<TProps> = ({ book }) => {
     console.log(book+'hello');
+    console.log(book.id);
     return <ApplicationWrapper title={book.Title}>
         <div className="flex flex-col justify-center items-center">
             <Link href={book.URL}>
