@@ -1,11 +1,13 @@
-## Books RootLab Project by Jose Mario Rodriguez 
+## Books RootLab Project by José Mario Rodríguez 
 
-This project was develop base on the structure provided by instructors.
+This project was develop base on the structure provided by instructors. According the instructions here you can find
+my email address:
+                            josemariorodriguezc@gmail.com
 
-NEXT_PUBLIC_API_URL=http://localhost:3000 was used as JSON Server port, so to run this server you 
+NEXT_PUBLIC_API_URL=http://localhost:3001 was used as JSON Server port, so to run this server you 
 just need to use the next command 
 
-                --> json-server --watch src/pages/api/data.json
+                             json-server ./testserver/data.json -p 3001
 
 To avoid any collide in the same port between the app running and the JSON Server, the dev option 
 in the script contained in package JSON was updated to "dev": "next dev -p 8080"; in order to avoid any problem.
