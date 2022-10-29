@@ -1,3 +1,17 @@
+## Books RootLab Project by Jose Mario Rodriguez 
+
+This project was develop base on the structure provided by instructors.
+
+NEXT_PUBLIC_API_URL=http://localhost:3000 was used as JSON Server port, so to run this server you 
+just need to use the next command 
+
+                --> json-server --watch src/pages/api/data.json
+
+To avoid any collide in the same port between the app running and the JSON Server, the dev option 
+in the script contained in package JSON was updated to "dev": "next dev -p 8080"; in order to avoid any problem.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
