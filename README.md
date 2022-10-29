@@ -11,6 +11,14 @@ just need to use the next command
 
 To avoid any collide in the same port between the app running and the JSON Server, the dev option 
 in the script contained in package JSON was updated to "dev": "next dev -p 8080"; in order to avoid any problem.
+That means you need to use the next URL to test this Book App:
+
+                            http://localhost:8080/
+
+This project was created to share some books about programming, therefore the data.JSON file contents information 
+regarding coding books. To access the information of the books directly in the browser you can use the next URL:
+
+                            http://localhost:3001/books/
 
 
 
