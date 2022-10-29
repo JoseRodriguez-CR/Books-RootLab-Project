@@ -14,7 +14,7 @@ const useBooks = () => {
     const [books, setBooks] = useState<IBook[]>([]);
 
     useEffect(() => {
-        fetch(process.env.NEXT_PUBLIC_API_URL + "/books")
+        fetch(`${process.env.NEXT_PUBLIC_API_URL}/books`)
         //fetch("http://localhost:3000/books")
             .then((res) => res.json())
             .then((data: IBook[]) => setBooks(data.slice(0, 10)))
