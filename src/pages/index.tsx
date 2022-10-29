@@ -16,6 +16,10 @@ const Home: NextPage<HomeProps> = () => {
           <h1 className="text-7xl font-bold italic text-white">
             Programming Books
           </h1>
+          <br />
+          <div>Nombre: Jose Mario Rodriguez</div>
+          <br />  
+          <div> Email: josemariorodriguezc@gmail.com</div>
         </div>
       </div>
     </ApplicationWrapper>
