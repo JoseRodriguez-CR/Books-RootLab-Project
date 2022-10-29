@@ -26,14 +26,15 @@ return (
             <Nav />
         </header>
         <main className="grow flex flex-col text-white ">{children}</main>
-        <footer className="flex p-6 h20 text-black underline text-2xl font-bold italic bg-cyan-500 items-center justify-center">
+        <footer className="flex p-6 h20 text-black underline text-sm font-bold italic bg-cyan-500 items-center justify-center">
             <a
                 href="https://github.com/JoseRodriguez-CR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:text-white"
             >
-                Developed by <span className="">José Mario Rodríguez </span>
+                Developed by <span className="">José Mario Rodríguez | Copyright © 2022</span>
+                
             </a>
         </footer>
     </div>

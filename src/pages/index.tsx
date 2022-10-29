@@ -14,7 +14,7 @@ const Home: NextPage<HomeProps> = () => {
       <div className="grow flex flex-col justify-center items-center bg-cover bg-[url('/images/library.jpg')]">
         <div className="grow bg-black w-full justify-center items-center flex opacity-70">
           <h1 className="text-7xl font-bold italic text-white">
-            Bienvenidos a Rootlab Books
+            Programming Books
           </h1>
         </div>
       </div>
